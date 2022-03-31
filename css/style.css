@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ min-height:100vh; margin:0; position:relative; }
+
+.gallery {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery-inner img {
+    width: 100%;
+}
+
+.giant {
+    font-size: 130px;
+}
+
+.hero {
+    background-image: url(../img/corn-stalk.jpg);
+    background-size: cover;
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
